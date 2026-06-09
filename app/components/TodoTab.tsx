@@ -4,15 +4,15 @@ import { todoData } from "../data";
 
 const categoryMeta: Record<string, { label: string; icon: string; color: string; bg: string }> = {
   universal: { label: "All Employees", icon: "📋", color: "#1B2A4A", bg: "#EEF1F6" },
-  childcare: { label: "Childcare", icon: "👶", color: "#E8A838", bg: "#FBF0D8" },
-  relocation: { label: "Relocation", icon: "🏠", color: "#3D9B8C", bg: "#E5F4F2" },
-  accessibility: { label: "Accessibility", icon: "♿", color: "#6B5CE7", bg: "#F0EEF9" },
+  childcare: { label: "Childcare", icon: "👶", color: "#D4A017", bg: "#FDF6E3" },
+  relocation: { label: "Relocation", icon: "🏠", color: "#4A8C5C", bg: "#E8F5EC" },
+  accessibility: { label: "Accessibility", icon: "♿", color: "#2D6A4F", bg: "#E8F5EC" },
 };
 
 const priorityMeta: Record<string, { label: string; color: string }> = {
   high: { label: "High", color: "#D64045" },
-  medium: { label: "Medium", color: "#E8A838" },
-  low: { label: "Low", color: "#3D9B8C" },
+  medium: { label: "Medium", color: "#D4A017" },
+  low: { label: "Low", color: "#4A8C5C" },
 };
 
 export default function TodoTab() {
@@ -145,7 +145,7 @@ export default function TodoTab() {
                           <div style={{ fontSize: 13.5, color: "var(--text-secondary)", lineHeight: 1.6 }}>{task.description}</div>
                           <div style={{ marginTop: 8, fontSize: 12, color: "var(--text-secondary)", display: "flex", alignItems: "center", gap: 4 }}>
                             <span>📅</span>
-                            <span>Due: <strong style={{ color: "var(--navy)" }}>March {task.dueDate.split(" ")[1]}</strong></span>
+                            <span>Due: <strong style={{ color: "var(--navy)" }}>{task.dueDate}</strong></span>
                           </div>
                         </div>
                       </div>

@@ -1,20 +1,20 @@
-export const RETURN_DATE = new Date('2025-03-15');
+export const RETURN_DATE = new Date('2026-07-07');
 
 export const faqData = [
   {
     category: "childcare",
     icon: "👶",
     label: "Childcare",
-    color: "#E8A838",
-    bgColor: "#FBF0D8",
+    color: "#D4A017",
+    bgColor: "#FDF6E3",
     questions: [
       {
         q: "I rely on flexible hours for school pickup. What options do I have?",
-        a: "Aoba Systems is actively evaluating an on-site daycare facility within our office building. We expect to announce a confirmed partner by end of Q2. In the interim, HR can connect you with emergency childcare subsidies and flexible start/end time arrangements — please submit a request through HR Connect."
+        a: "Aoba Systems is actively evaluating an on-site daycare facility within our office building. We expect to announce a confirmed partner by end of Q3. In the interim, HR can connect you with emergency childcare subsidies and flexible start/end time arrangements — please submit a request through HR Connect."
       },
       {
         q: "Will there be a company daycare?",
-        a: "Senior management is in discussions with three daycare operators for a potential in-office facility. This is a genuine priority, not a vague promise — we will provide a formal update by April 30. Until then, see the nearby daycare options listed below."
+        a: "Senior management is in discussions with three daycare operators for a potential in-office facility. This is a genuine priority, not a vague promise — we will provide a formal update by July 31. Until then, see the nearby daycare options listed below."
       },
       {
         q: "Can I request adjusted hours for school drop-off and pick-up?",
@@ -23,7 +23,7 @@ export const faqData = [
     ],
     resources: {
       title: "Daycare Centers Near Aoba Systems HQ",
-      note: "The company is considering an in-office daycare — updates by April 30.",
+      note: "The company is considering an in-office daycare — updates by July 31.",
       items: [
         { name: "Sakura Kids Nursery", distance: "0.3 km", address: "2-14 Honcho, Chiyoda-ku", phone: "03-1234-5678", notes: "Ages 0–6, extended hours until 20:00" },
         { name: "Rainbow Child Care Center", distance: "0.7 km", address: "5-2 Marunouchi", phone: "03-2345-6789", notes: "English/Japanese bilingual program" },
@@ -36,12 +36,12 @@ export const faqData = [
     category: "relocation",
     icon: "🏠",
     label: "Living Far Away",
-    color: "#3D9B8C",
-    bgColor: "#E5F4F2",
+    color: "#4A8C5C",
+    bgColor: "#E8F5EC",
     questions: [
       {
         q: "I moved far from the office during the pandemic. What support is available?",
-        a: "Aoba Systems offers a one-time Relocation Assistance Package for affected employees: ¥150,000 toward moving expenses, plus priority referrals to our partnered real estate agencies. Submit a Relocation Assistance Request to HR by March 31 to qualify."
+        a: "Aoba Systems offers a one-time Relocation Assistance Package for affected employees: ¥150,000 toward moving expenses, plus priority referrals to our partnered real estate agencies. Submit a Relocation Assistance Request to HR by July 7 to qualify."
       },
       {
         q: "Is remote work available as an exception for those who have relocated?",
@@ -68,8 +68,8 @@ export const faqData = [
     category: "accessibility",
     icon: "♿",
     label: "Accessibility & Disabilities",
-    color: "#6B5CE7",
-    bgColor: "#F0EEF9",
+    color: "#2D6A4F",
+    bgColor: "#E8F5EC",
     questions: [
       {
         q: "I have a disability and my home setup was specifically adapted. What does the office offer?",
@@ -113,100 +113,100 @@ export const todoData = {
       id: 1, category: "universal", group: "Data & Equipment",
       title: "Back up home office files to company cloud",
       description: "Upload all work documents, project files, and assets to SharePoint or OneDrive before the return date.",
-      dueDate: "Mar 10", priority: "high", done: false
+      dueDate: "Jun 30", priority: "high", done: false
     },
     {
       id: 2, category: "universal", group: "Data & Equipment",
       title: "Return company-issued peripherals to IT",
       description: "Bring your company monitor, keyboard, docking station, and any loaned equipment to the IT desk on Floor 2.",
-      dueDate: "Mar 15", priority: "high", done: false
+      dueDate: "Jul 7", priority: "high", done: false
     },
     {
       id: 3, category: "universal", group: "Data & Equipment",
       title: "Set up your assigned onsite workstation",
       description: "Collect your desk assignment from Facilities Management (Floor 1). Log in and verify VPN, printers, and shared drives.",
-      dueDate: "Mar 15", priority: "medium", done: false
+      dueDate: "Jul 7", priority: "medium", done: false
     },
     {
       id: 4, category: "universal", group: "Admin",
       title: "Update your contact info and emergency contact in HR Connect",
       description: "Ensure your current address, phone number, and emergency contact are up to date in the HR portal.",
-      dueDate: "Mar 8", priority: "medium", done: false
+      dueDate: "Jun 28", priority: "medium", done: false
     },
     {
       id: 5, category: "universal", group: "Admin",
       title: "Review updated office conduct and desk policy",
       description: "The desk-sharing and clean-desk policies have been updated. Read and acknowledge in HR Connect.",
-      dueDate: "Mar 12", priority: "low", done: false
+      dueDate: "Jul 2", priority: "low", done: false
     },
     // Childcare tasks
     {
       id: 6, category: "childcare", group: "Childcare Arrangements",
       title: "Research and contact nearby daycare centers",
       description: "Review the 4 partner daycare centers listed in the FAQ. Contact at least two to check availability for your child's age group.",
-      dueDate: "Mar 1", priority: "high", done: false
+      dueDate: "Jun 23", priority: "high", done: false
     },
     {
       id: 7, category: "childcare", group: "Childcare Arrangements",
       title: "Apply for childcare subsidy through HR",
       description: "HR offers an emergency childcare subsidy of up to ¥30,000/month. Submit form CHILD-01 to hr@aobasystems.jp.",
-      dueDate: "Mar 5", priority: "high", done: false
+      dueDate: "Jun 25", priority: "high", done: false
     },
     {
       id: 8, category: "childcare", group: "Childcare Arrangements",
       title: "Discuss adjusted hours with your manager",
       description: "If school pickup conflicts with standard hours, request a temporary schedule adjustment (approved up to 90 days) via your line manager.",
-      dueDate: "Mar 7", priority: "medium", done: false
+      dueDate: "Jun 27", priority: "medium", done: false
     },
     // Relocation tasks
     {
       id: 9, category: "relocation", group: "Relocation",
       title: "Submit Relocation Assistance Request to HR",
-      description: "Qualify for ¥150,000 moving support by submitting your request to HR before March 31. Form: RELOC-02 on HR Connect.",
-      dueDate: "Mar 31", priority: "high", done: false
+      description: "Qualify for ¥150,000 moving support by submitting your request to HR before July 7. Form: RELOC-02 on HR Connect.",
+      dueDate: "Jul 7", priority: "high", done: false
     },
     {
       id: 10, category: "relocation", group: "Relocation",
       title: "Contact partner real estate agencies",
       description: "Mention 'Aoba Systems relocation' to Mitsui Urban or Century 21 Chiyoda for priority listings near HQ.",
-      dueDate: "Mar 5", priority: "high", done: false
+      dueDate: "Jun 25", priority: "high", done: false
     },
     {
       id: 11, category: "relocation", group: "Relocation",
       title: "Get moving quotes from partner companies",
       description: "Kuroneko Moving Pro and Art Moving Center offer corporate rates. Get at least two quotes to compare.",
-      dueDate: "Mar 10", priority: "medium", done: false
+      dueDate: "Jun 30", priority: "medium", done: false
     },
     {
       id: 12, category: "relocation", group: "Relocation",
       title: "Confirm commute plan if not moving immediately",
       description: "If relocation takes longer than the return date, plan your interim commute (transit routes, commuter pass update, estimated travel time).",
-      dueDate: "Mar 14", priority: "medium", done: false
+      dueDate: "Jul 4", priority: "medium", done: false
     },
     // Accessibility tasks
     {
       id: 13, category: "accessibility", group: "Accessibility Setup",
       title: "Submit Reasonable Adjustment Request",
       description: "Request any assistive technology, ergonomic furniture, or workspace adaptations via accessibility@aobasystems.jp. Allow 5 business days.",
-      dueDate: "Mar 3", priority: "high", done: false
+      dueDate: "Jun 23", priority: "high", done: false
     },
     {
       id: 14, category: "accessibility", group: "Accessibility Setup",
       title: "Register vehicle plate for accessible parking (if applicable)",
       description: "If you hold a blue badge, register your vehicle plate with Building Security to access reserved Section A parking on B1.",
-      dueDate: "Mar 10", priority: "medium", done: false
+      dueDate: "Jun 30", priority: "medium", done: false
     },
     {
       id: 15, category: "accessibility", group: "Accessibility Setup",
       title: "Book a quiet room slot for your first week",
       description: "Quiet rooms on Floors 3 and 7 are bookable via the shared calendar. Reserve your preferred slots to ease the transition.",
-      dueDate: "Mar 12", priority: "low", done: false
+      dueDate: "Jul 2", priority: "low", done: false
     },
     {
       id: 16, category: "accessibility", group: "Accessibility Setup",
       title: "Schedule Occupational Health consultation if needed",
       description: "If full-time attendance creates a health barrier, contact oh@aobasystems.jp for a confidential Reasonable Adjustment Assessment.",
-      dueDate: "Mar 7", priority: "high", done: false
+      dueDate: "Jun 27", priority: "high", done: false
     }
   ]
 };

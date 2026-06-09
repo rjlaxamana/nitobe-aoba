@@ -5,7 +5,7 @@ export default function AnnouncementTab() {
     {
       icon: "📋",
       title: "What is changing",
-      content: "Effective March 15, 2025, all Aoba Systems employees are required to return to full-time, in-office work at our headquarters. The hybrid work policy introduced in 2020 — which allowed up to three days of remote work per week — will be discontinued. There are no blanket exceptions to this policy."
+      content: "Effective July 7, 2026, all Aoba Systems employees are required to return to full-time, in-office work at our headquarters. The hybrid work policy introduced in 2020 — which allowed up to three days of remote work per week — will be discontinued. There are no blanket exceptions to this policy."
     },
     {
       icon: "💡",
@@ -15,7 +15,7 @@ export default function AnnouncementTab() {
     {
       icon: "📅",
       title: "Timeline",
-      content: "The announcement was made in February 2025. The formal return date is March 15, 2025, giving employees approximately four weeks to make necessary arrangements. HR has established dedicated support channels for employees facing significant adjustment challenges."
+      content: "The announcement was made in June 2026. The formal return date is July 7, 2026, giving employees approximately four weeks (from June 9) to make necessary arrangements. HR has established dedicated support channels for employees facing significant adjustment challenges."
     },
     {
       icon: "🏢",
@@ -25,9 +25,9 @@ export default function AnnouncementTab() {
   ];
 
   const supports = [
-    { icon: "👶", label: "Childcare", desc: "Considering on-site daycare + HR subsidy program", color: "#E8A838", bg: "#FBF0D8" },
-    { icon: "🏠", label: "Relocation", desc: "¥150,000 moving assistance + partner real estate agencies", color: "#3D9B8C", bg: "#E5F4F2" },
-    { icon: "♿", label: "Accessibility", desc: "Barrier-free facilities + Reasonable Adjustment process", color: "#6B5CE7", bg: "#F0EEF9" },
+    { icon: "👶", label: "Childcare", desc: "Considering on-site daycare + HR subsidy program", color: "#D4A017", bg: "#FDF6E3" },
+    { icon: "🏠", label: "Relocation", desc: "¥150,000 moving assistance + partner real estate agencies", color: "#4A8C5C", bg: "#E8F5EC" },
+    { icon: "♿", label: "Accessibility", desc: "Barrier-free facilities + Reasonable Adjustment process", color: "#4A8C5C", bg: "#E8F5EC" },
   ];
 
   return (
@@ -35,14 +35,14 @@ export default function AnnouncementTab() {
       {/* Intro card */}
       <div style={{ background: "var(--navy)", borderRadius: 12, padding: "28px 32px", marginBottom: 28, color: "#fff" }}>
         <div style={{ fontSize: 11, fontWeight: 600, letterSpacing: "0.1em", color: "var(--amber)", textTransform: "uppercase" as const, marginBottom: 10 }}>
-          Official Communication · February 2025
+          Official Communication · June 2026
         </div>
         <p style={{ fontSize: 16, lineHeight: 1.7, color: "rgba(255,255,255,0.88)", maxWidth: 680 }}>
           This hub consolidates all information related to the return-to-office transition. Use the tabs above to review the full announcement, get answers to common questions, and track your personal adjustment checklist.
         </p>
         <div style={{ marginTop: 20, display: "flex", gap: 10, flexWrap: "wrap" as const }}>
           <span style={{ background: "rgba(232,168,56,0.2)", color: "var(--amber)", padding: "5px 14px", borderRadius: 20, fontSize: 13, fontWeight: 500 }}>
-            Effective: March 15, 2025
+            Effective: July 7, 2026
           </span>
           <span style={{ background: "rgba(255,255,255,0.1)", color: "rgba(255,255,255,0.8)", padding: "5px 14px", borderRadius: 20, fontSize: 13 }}>
             All 400 employees

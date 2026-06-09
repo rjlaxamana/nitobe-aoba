@@ -1,17 +1,23 @@
 @import "tailwindcss";
 
 :root {
-  --navy: #1B2A4A;
-  --navy-light: #2C3E6B;
-  --amber: #E8A838;
-  --amber-light: #FBF0D8;
-  --teal: #3D9B8C;
-  --teal-light: #E5F4F2;
-  --slate: #EEF1F6;
-  --off-white: #F8F7F4;
-  --text-primary: #1B2A4A;
-  --text-secondary: #5A6B8A;
-  --border: #DDE3EE;
+  /* 青葉 palette — young leaf greens + deep ink */
+  --navy: #1A2E1F;           /* deep ink-green, replaces navy blue */
+  --navy-light: #2D4A35;
+  --aoba-green: #4A8C5C;     /* mid-leaf green — primary accent */
+  --aoba-bright: #6BBF7A;    /* bright young leaf */
+  --aoba-pale: #E8F5EC;      /* very light leaf tint */
+  --aoba-spring: #C8E6C9;    /* spring bud tint */
+  --amber: #D4A017;          /* deepened gold — morning light through leaves */
+  --amber-light: #FDF6E3;
+  --slate: #EEF3EF;          /* green-tinted slate */
+  --off-white: #F7FAF7;      /* ever-so-slightly green off-white */
+  --text-primary: #1A2E1F;
+  --text-secondary: #4D6855;
+  --border: #D1E0D4;
+  /* legacy aliases so existing components work */
+  --teal: #4A8C5C;
+  --teal-light: #E8F5EC;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
