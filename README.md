@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 青葉 Aoba Systems — Return-to-Office Transition Hub
 
-## Getting Started
+> **Course exercise built for the Nitobe College Pre-program Courses**
+> Hokkaido University · Nitobe College
 
-First, run the development server:
+---
+
+## About this project
+
+This web application was developed as a **practical exercise** in the **Nitobe College Pre-program Courses** at Hokkaido University. It is a fictional internal HR tool for a made-up company, *Aoba Systems*, and is intended purely for educational purposes.
+
+The exercise uses a realistic workplace scenario — a company-wide return-to-office mandate — to explore how digital tools can be designed to communicate policy changes clearly, support affected employees, and give staff a voice in organizational decisions.
+
+---
+
+## Scenario
+
+**Aoba Systems** is a fictional mid-sized technology company with 400 employees. During the COVID-19 pandemic, it introduced a hybrid working policy allowing staff to work from home up to three days a week. On **June 9, 2026**, senior management announced that all staff must return to full-time office work by **July 7, 2026** — giving employees four weeks to adjust.
+
+Many employees had built their lives around hybrid work: caregivers relying on flexible childcare arrangements, staff who relocated farther from the office for more space, and employees with disabilities who adapted their home environments. This application is designed to support them through the transition.
+
+---
+
+## What the app does
+
+The application has four tabs:
+
+| Tab | Purpose |
+|---|---|
+| **Announcement** | Official communication explaining the policy change, the rationale, and the timeline |
+| **Support & FAQ** | Tailored FAQs and resource listings for three affected groups: childcare, relocation, and accessibility |
+| **My Checklist** | A personalized to-do list for an employee affected by all three situations, with tasks grouped by category and priority |
+| **Share Feedback** | A structured form for employees to submit their opinions directly to executive leadership, with an anonymous submission option |
+
+---
+
+## Design notes
+
+The visual identity is built around **青葉** (aoba — *young green leaves*), which is the company name. The color palette uses layered leaf greens, a deep ink-green for backgrounds, and a warm gold accent meant to evoke morning light through foliage. The header includes a hand-drawn SVG leaf mark and the kanji 青葉 alongside the wordmark.
+
+**Stack:** Next.js 15 (App Router) · TypeScript · CSS custom properties · No external UI libraries
+
+---
+
+## Running locally
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Deploying to Vercel
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Push this repository to GitHub.
+2. Go to [vercel.com/new](https://vercel.com/new) and import the repo.
+3. Framework preset **Next.js** is auto-detected.
+4. Click **Deploy** — no environment variables required.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Academic context
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Institution:** Hokkaido University  
+**College:** Nitobe College  
+**Program:** Pre-program Courses  
+**Exercise type:** Application design & development  
+**Tools used:** Next.js, TypeScript, Claude (AI-assisted development)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*Aoba Systems and all individuals, scenarios, companies, and contact details referenced within the application are entirely fictional and created for educational purposes only.*
